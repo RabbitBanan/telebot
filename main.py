@@ -1,3 +1,4 @@
+# _*_ coding: utf-8 _*_
 from telegram import Bot, Update
 from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 
@@ -101,7 +102,7 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
-    path = "База знаний.csv"
-    with open(path, "r") as f_obj:
-        BOT_CONFIG = csv_reader(f_obj)
+    #path = "База знаний.csv"
+    #with open(path, "r") as f_obj:
+    #    BOT_CONFIG = csv_reader(f_obj)
     main()
