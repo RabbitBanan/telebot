@@ -75,7 +75,7 @@ def NLPbot(replica):
 def do_start(bot:Bot, update:Update):
     bot.send_message(
         chat_id=update.message.chat_id,
-        text='Hello World',
+        text='Привет! Меня завут бот, я Ваш виртальный консультант по наставничеству. \nЯ здесь, чтобы помочь тебе найти ответы на тему наставничество.',
     )
 
 def do_echo(bot:Bot, update:Update):
